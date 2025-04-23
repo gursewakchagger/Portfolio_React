@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url("asset_0000000000000020_1549743985_macbook_mouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+}

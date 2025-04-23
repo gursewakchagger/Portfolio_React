@@ -1,0 +1,42 @@
+.main-skills{
+        background-color: #9e9b9b29;
+        height: 88vh;
+    }
+.skillheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:35px;
+    color: #2857a4;
+    font-family: sans-serif;
+}
+.skill-progress{
+    width:25%;
+    margin: 20px;
+}
+ .skill-background{
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 6vh;
+    width: 85%;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset
+ }
+ .skill-text{
+    background-color: #0b8176;
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+ }
+ .skill-text span{
+    margin: 10px;
+    font-family: sans-serif;
+    color: white;
+ }
+ .Main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }

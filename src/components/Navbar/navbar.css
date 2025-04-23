@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 12vh;
+}
+.navbar ul{
+    list-style: none;
+
+}
+.navbar ul li{
+    margin: 13px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 13px;
+}

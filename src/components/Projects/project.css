@@ -1,0 +1,10 @@
+.project-details{
+    position: relative;
+    bottom: 180px;
+    /* width: 26%; */
+    /* height: 0vh; */
+}
+.project-details:hover{
+    background-color: black;
+    color: white;
+}

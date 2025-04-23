@@ -1,0 +1,114 @@
+.Contact-main{
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    font-family: sans-serif;
+    color: white;
+}
+.Contact-heading h1{
+    text-align: center;
+    padding: 20px;
+
+}
+.Contact-main form input{
+    background: transparent;
+    border:0px;
+    border-bottom: 2px solid white;
+    margin: 10px;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+}
+.Contact-main form input:focus{
+    outline: none;
+}
+.Contact-main form textarea{
+    background:transparent;
+    border: 0px;
+    border-bottom: 2px solid white;
+    display: block;
+    margin: 10px;
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+}
+.Contact-main form textarea:focus{
+    outline: none;
+}
+.main-form h1{
+    margin: 20px;
+}
+.Contact-main form button{
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    font-family: sans-serif;
+    position: relative;
+    left: 43%;
+    top: 24px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.Contact-main form button:hover{
+    background-color: white;
+    color: #2857a4;
+}
+.main-form{
+    width: 70%;
+}
+.main-div{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+    height: 55vh;
+}
+.Adress{
+    display: flex;
+    justify-content: center;
+}
+.Adress1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Adress1 h1{
+    margin: 16px;
+    text-align: center;
+}
+.Adress1 h2{
+    margin: 12px;
+}
+.Adress1 p{
+    margin: 14px;
+}
+.Adress2{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Adress2 h1{
+    margin: 14px;
+}
+.Adress2 h2{
+    margin: 12px;
+}
+.Myfooter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding:24px;
+}
+.Myfooter p{
+    font-size: 20px;
+}
+.Myfooter span{
+    color: orange;
+}

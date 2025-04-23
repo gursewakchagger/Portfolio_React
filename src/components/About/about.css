@@ -1,0 +1,19 @@
+.About p{
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin: 100px;
+}
+.About{
+    display: flex;
+    justify-content: center;
+}
+.AboutImg{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.AboutImg img{
+    border-radius:100%;
+}

@@ -1,0 +1,46 @@
+.Experience-heading h1{
+    text-align: center;
+    padding: 50px;
+    color: #2857a4;
+    font-family: sans-serif;
+}
+.first{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+    font-family: sans-serif;
+    height: 120vh;
+    padding: 30px;
+}
+.secondh1{
+    color: orange;
+}
+.firsth1{
+    color: #2857a4;
+}
+.second{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: sans-serif;
+    height: 120vh;
+    padding: 30px;
+}
+.main{
+    display: flex;
+}
+.vertical {
+    border-left:1px solid black;
+    height: 830px;
+    border-style: dashed;
+}
+@media screen and (max-width: 1024px) {
+    .vertical svg path{
+    left:100px;
+    }
+  }
+
