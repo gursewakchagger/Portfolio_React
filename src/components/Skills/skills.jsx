@@ -3,6 +3,7 @@ import "./skills.css"
 import { FaChalkboardUser,FaBriefcase } from "react-icons/fa6";
 const skills = () => {
   return (
+  <>
     <div className='main-skills'>
       <div className='skillheader'>
       <h1>
@@ -62,6 +63,10 @@ const skills = () => {
       </div>
       </div>
     </div>
+    <footer className='Myfooter'>
+      <p>Created By @<span>Gursewak Singh</span>|All Rights Reserved!</p>
+      </footer>
+    </>
   )
 }
 export default skills;

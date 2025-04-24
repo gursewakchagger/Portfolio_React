@@ -7,6 +7,9 @@ const Header = () => {
       <header className='header'>
       <Heading/>
       </header>
+      <footer className='Headerfooter'>
+      <p>Created By @<span>Gursewak Singh</span> | All Rights Reserved!</p>
+      </footer>
     </div>
   )
 }

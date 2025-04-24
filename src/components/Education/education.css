@@ -1,1 +1,18 @@
- 
+.Myfooter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding:24px;
+}
+.Myfooter p{
+    font-size: 20px;
+}
+.Myfooter span{
+    color: orange;
+}
+.education-main{
+    display: flex;
+}
+.Experience-heading h1 svg{
+    margin: 7px;
+}

@@ -21,7 +21,7 @@ const experience = () => {
             <p>As an intern as a Ninja Enterprenureship,I'll work on various projects related to education technology and campus management.I'll collaborate with a team of experienced professionals, learn how to develop and implement solutions for education institutions, and gain hands-on experience with cutting-edge technologies. I also have the opportunity to work on research and development projects, participate in workshops and training sessions, and contribute to the growth and of the company. By the end of my internship, I'll have gained valuable skills and practical experience that will help me in my future career.</p>
         </div>
         </div>
-        <div className= "vertical"><FaPlaneUp style={{fontSize:"40px",position:"fixed",top:"200px",left:"613px",color:" #2857a4"}}/></div>
+        <div className= "vertical"> <FaPlaneUp style={{fontSize:"40px",position:"sticky",top:"200px",color:" #2857a4", margin:"-20px"}}/></div>
         <div className='second'>
         <div >
             <h1 className='firsth1'>React Js developer(Internship)</h1>
@@ -30,6 +30,9 @@ const experience = () => {
         </div>
         </div>
         </div>
+        <footer className='Myfooter'>
+      <p>Created By @<span>Gursewak Singh</span>|All Rights Reserved!</p>
+      </footer>
     </div>
   )
 }

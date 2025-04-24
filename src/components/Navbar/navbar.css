@@ -3,15 +3,14 @@
     color: white;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
     height: 12vh;
 }
 .navbar ul{
     list-style: none;
-
 }
 .navbar ul li{
-    margin: 13px;
+    /* margin: 13px; */
 }
 .navbar ul li a{
     text-decoration: none;

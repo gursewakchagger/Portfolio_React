@@ -3,7 +3,7 @@
     font-family: sans-serif;
     color: grey;
     font-size: 20px;
-    margin: 100px;
+    margin: 90px;
 }
 .About{
     display: flex;
@@ -16,4 +16,27 @@
 }
 .AboutImg img{
     border-radius:100%;
+}
+.Myfooter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding:24px;
+    height: 75px;
+}
+.Myfooter p{
+    font-size: 100vw;
+    color: white;
+    font-family: sans-serif;
+}
+.Myfooter span{
+    color: orange;
+}
+@media screen and (max-width:430px) {
+    .Myfooter{
+        height: 66px;
+    }
+    .Myfooter p{
+        font-size: 16px;
+    }
 }

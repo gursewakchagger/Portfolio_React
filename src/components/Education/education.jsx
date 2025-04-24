@@ -19,7 +19,7 @@ const education = () => {
             <h1>2014 - 2015</h1>
         </div>
         </div>
-        <div className= "vertical"><FaPlaneUp style={{fontSize:"40px",position:"fixed",top:"200px",left:"613px",color:" #2857a4"}}/></div>
+        <div className= "vertical"><FaPlaneUp style={{fontSize:"40px",position:"sticky",top:"200px",color:" #2857a4", margin:"-20px"}}/></div>
         <div className='second'>
         <div >
             <h1 className='firsth1'>C.A.V. Inter College</h1>
@@ -28,6 +28,9 @@ const education = () => {
         </div>
         </div>
         </div>
+        <footer className='Myfooter'>
+      <p>Created By @<span>Gursewak Singh</span>|All Rights Reserved!</p>
+      </footer>
     </div>
   )
 }

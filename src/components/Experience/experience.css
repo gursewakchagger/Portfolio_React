@@ -34,13 +34,84 @@
     display: flex;
 }
 .vertical {
-    border-left:1px solid black;
+    border-left:0px solid black;
+    border-top: 0px;
     height: 830px;
     border-style: dashed;
 }
+.Myfooter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding:24px;
+}
+.Myfooter p{
+    font-size: 20px;
+}
+.Myfooter span{
+    color: orange;
+}
+.Experience-heading h1 svg{
+    margin: 7px;
+}
 @media screen and (max-width: 1024px) {
-    .vertical svg path{
-    left:100px;
+    .first{
+    font-size: 12px;
+
     }
+    .firsth1{
+        font-size: 24px;
+    }
+    .secondh1{
+        font-size: 24px;
+    }
+    .second{
+        font-size: 12px;
+    }
+    .vertical{
+        height:480px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+        .main{
+            height: 610px;
+        }
+        .vertical{
+            height: 581px;
+        }
+        .Myfooter p{
+            font-size: 16px;
+        }
+  }
+  @media screen and (max-width:430px) {
+    .firsth1{
+        font-size: 16px;
+    }
+    .Experience-heading h1{
+    text-align: center;
+    padding: 80px;
+    color: #2857a4;
+    font-family: sans-serif;
+}
+    .secondh1{
+        font-size: 16px;
+    }
+    .main{
+        height:1210px
+    }
+    .vertical {
+        height: 1200px;
+    }
+    .second{
+        width: 42%;
+    }
+    .Myfooter p{
+        font-size: 14px;
+    }
+    .Adress2 h1{
+        font-size: 19px;
+    }
+    
   }
 

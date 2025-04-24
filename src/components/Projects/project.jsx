@@ -57,13 +57,18 @@ const project = () => {
     <div>
       <section className=''>
       <h1 className='projectheading'><FaTableList/>Projects</h1>
-      {photo.map((Project)=><div className='project-div'><img src={Project.img} alt="" width={380} height={180}></img>
+      <div className='my-project'>
+      {photo.map((Project)=><div className='project-div'><img src={Project.img} alt="" width={380} height={180} style={{width:"100%",height:"220px"}}></img>
       <div className='project-details'>
         <h1>{Project.title}</h1>
         <p>{Project.decs}</p>
         </div>
       </div>)}
+      </div>
       </section>
+      <footer className='Myfooter'>
+      <p>Created By @<span>Gursewak Singh</span>|All Rights Reserved!</p>
+      </footer>
     </div>
     
   )
