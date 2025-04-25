@@ -15,12 +15,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar/>}>
         <Route index element={<Header/>} />
-        <Route path="about" element={<About/>} />
-        <Route path="skills" element={<Skills/>} />
-        <Route path="Experience" element={<Experience/>} />
-        <Route path="Education" element={<Education/>} />
-        <Route path="projects" element={<Projects/>} />
-        <Route path="Contact" element={<Contact/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/skills" element={<Skills/>} />
+        <Route path="/Experience" element={<Experience/>} />
+        <Route path="/Education" element={<Education/>} />
+        <Route path="/projects" element={<Projects/>} />
+        <Route path="/Contact" element={<Contact/>} />
         </Route>
       </Routes>
     </BrowserRouter>
